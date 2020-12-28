@@ -1,7 +1,7 @@
 {
-  "name": "node-skeleton",
-  "version": "0.0.0-alpha",
-  "description": "Skeleton node project for my projects",
+  "name": "books-sdk",
+  "version": "0.1.0",
+  "description": "Lib to coordinate data from book sources",
   "main": "dist/index.js",
   "scripts": {
     "install": "npm run build",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1shooperman/node-skeleton.git"
+    "url": "git+https://github.com/1shooperman/books-sdk.git"
   },
   "author": "Brandon Shoop <brandon.shoop@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/1shooperman/node-skeleton/issues"
+    "url": "https://github.com/1shooperman/books-sdk/issues"
   },
-  "homepage": "https://github.com/1shooperman/node-skeleton#readme",
+  "homepage": "https://github.com/1shooperman/books-sdk#readme",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
