@@ -71,6 +71,6 @@
     "forceConsistentCasingInFileNames": true,  /* Disallow inconsistently-cased references to the same file. */
     "resolveJsonModule": true
   },
-  "exclude": ["node_modules", "coverage", "__jest__", "dist", "./**/__test__"],
+  "exclude": ["node_modules", "coverage", "__jest__", "dist", "./**/__test__", "__mocks__"],
   "include": ["src/**/*.ts", "src/**/*.js"]
 }

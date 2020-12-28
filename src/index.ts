@@ -1,18 +1,20 @@
-/**
- * This is an example tsdoc header
- *
- * @remarks
- * This method is part of the {@link foo#Bar | Bar foo}.
- *
- * @param x - foo
- * @param y - bar
- * @returns fooing the bar
- *
- * @beta
- */
-const foo = (): number => {
-  console.log('Greetings Programs!');
-  return 1;
-};
+/* 
 
-foo();
+@TODO
+
+P1 
+* get RSS feed (gr) <-- configuration ()
+* get number of reviews  (gr) <-- google cache so GR doesn't block me?
+* get book reading level ??
+
+
+p2 
+* save the data somewhere (long term storage somewhere)
+
+*/
+
+require('dotenv').config();
+
+// console.log(process.env.BOOK_RSS);
+// console.log(process.env.GOOGLE_PREVIEW_BASE);
+
