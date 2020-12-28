@@ -13,7 +13,6 @@ p2
 
 */
 
-require('dotenv').config();
 
 // console.log(process.env.BOOK_RSS);
 // console.log(process.env.GOOGLE_PREVIEW_BASE);
